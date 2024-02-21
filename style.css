@@ -19,7 +19,7 @@ body {
 }
 
 .container input {
-    width: calc(100% - 1000px); /* Adjust width to leave room for padding */
+    width: calc(100% - 100px); /* Adjust width to leave room for padding */
     height: 50px;
     border: 1px solid #494eea;
     outline: 0;
@@ -30,7 +30,7 @@ body {
 }
 
 .container button {
-    width: calc(100% - 1000px); /* Adjust width to leave room for padding */
+    width: calc(100% - 100px); /* Adjust width to leave room for padding */
     height: 50px;
     background: #494eea;
     color: #fff;
