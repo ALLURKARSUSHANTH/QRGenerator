@@ -1,0 +1,66 @@
+body {
+    background: #262a2f;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center the contents of the container */
+}
+
+.container p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.container input {
+    width: calc(100% - 1000px); /* Adjust width to leave room for padding */
+    height: 50px;
+    border: 1px solid #494eea;
+    outline: 0;
+    padding: 10px;
+    margin: 10px auto 20px; /* Center input field horizontally */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container button {
+    width: calc(100% - 1000px); /* Adjust width to leave room for padding */
+    height: 50px;
+    background: #494eea;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 20px auto; /* Center button horizontally */
+    font-weight: 500;
+    display: inline-block; /* Ensure button is inline */
+    padding: 0 10px; /* Add padding to button */
+}
+
+#imgBox {
+    width: 200px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    border-radius: 5px;
+    margin: 0 auto; /* Center image box horizontally */
+}
+
+#imgBox img {
+    width: 100px;
+    padding: 10px;
+}
+
+#imgBox.show-img {
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1; 
+}
