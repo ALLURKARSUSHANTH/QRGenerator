@@ -1,1 +1,1 @@
-# javaprac
+# QR CODE GENERATOR 
